@@ -1,0 +1,451 @@
+<!-- 
+    技术支持：深圳市小草互联网科技有限公司，专注前端外包、美工外包。
+    联系电话：13823771028
+    淘宝店：https://shop269081662.taobao.com
+    欢迎联系QQ/微信：364243821；并对我们的产品提出宝贵的意见和建议。
+    为您服务，我们不胜荣幸！
+    1.  根目录文件说明：
+        css | scripts | images | xchl（存放html文件）| 页面（最终存放设计界面图片）；
+    2.  所有icon图标一律引用阿里iconfont的线上图标。
+        ps：客户如需转交iconfont项目所有权，请与项目交付3天内联系我司。
+
+    editer：谢滔
+    edittime：2018年4月8日10:32:04
+    文件修改记录：
+    1. 2018年xx月xx日xx:xx:xx  修复bug，轮播图切换异常
+    2. ****
+ -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- 设置文档宽度、是否缩放 -->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <!-- 优先使用IE最新版本和Chrome -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>ICO内容列表页</title>
+        <!-- 关键字 -->
+        <meta name="keywords" content="">
+        <!-- 描述 -->
+        <meta name="description" content="">
+
+        <!--[if lte IE 8]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+        <!--[if lte IE 7]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+        <!--[if lte IE 6]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+        <!-- 360使用Google Chrome Frame -->
+		<meta name="renderer" content="webkit">
+		<!-- 百度禁止转码 -->
+		<meta http-equiv="Cache-Control" content="no-siteapp">
+		<!-- 定义网页搜索引擎索引方式 -->
+		<meta name="robots" content="index,follow">
+		<!-- ios设备 -->
+		<!-- 添加到主屏后的标题 -->
+		<meta name="apple-mobile-web-app-title" content="标题">
+		<!-- 是否启用WebApp全屏模式 -->
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<!-- 设置状态栏的背景颜色 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!-- Android theme-color用来控制选项卡颜色。 -->
+		<meta name="theme-color" content="#747474">
+		<meta name="mobile-web-app-capable" content="yes">
+		<!-- 关闭chrome浏览器下翻译插件 -->
+		<meta name="google" value="notranslate" />
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+
+		<!-- 开始引用css -->
+		<link rel="stylesheet" type="text/css" href="">
+		<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet/less" type="text/css" href="../styles/xchl.less">
+		<!-- 开始引用js -->
+		<script src="../scripts/less.min.js"></script>
+		<script src="../scripts/jquery/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- 开始 头部 -->
+        <header>
+			<!--导航开始-->
+			<div id="index-header"></div>
+			<script >
+                $("#index-header").load("../public/header.html");
+			</script>
+			<!--导航结束-->
+        </header>
+        <!-- 头部 结束 -->
+        <!-- 开始 身体 -->
+        <section>
+			<div class="container">
+				<div class="row">
+					<div class="yh-section-hyy-zuo col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+						<div class="yh-section-hyy-zuo1">
+							<ul id="tab_tb">
+								<li><a href="newrecommend.html">推荐</a></li>
+								<li class="tb-active">关注</li>
+								<li>平台</li>
+								<li>加密货币</li>
+								<li>商业服务</li>
+								<li>投资</li>
+								<li>软件</li>
+								<li>智能合约</li>
+								<li>网络</li>
+								<li>娱乐</li>
+								<li>银行</li>
+								<li>基础设施</li>
+								<li>通讯</li>
+								<li>大数据</li>
+								<li>人工智能</li>
+								<li>媒体</li>
+								<li>零售</li>
+								<li>健康</li>
+								<li>房地产</li>
+								<li>教育</li>
+								<li>博彩</li>
+								<li>旅游</li>
+								<li>体育</li>
+								<li>能源</li>
+								<li>制造业</li>
+								<li>虚拟现实</li>
+								<li>慈善</li>
+								<li>电力</li>
+								<li>法律</li>
+								<li>艺术</li>
+								<li>其他</li>
+							</ul>
+						</div>
+						<div class="yh-section-hyy-zuo2" id="tab_wrap">
+                            <div>
+                            </div>
+                            <div>
+								<div class="yh-section-gzy-top col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<ul>
+										<li>全部</li>
+										<li>标签</li>
+										<li>标签</li>
+										<li>标签</li>
+										<li>标签</li>
+									</ul>
+									<nav class="navbar navbar-light bg-light">
+										<form class="form-inline">
+											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+											<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+										</form>
+									</nav>
+								</div>
+							<ul >
+								<li>
+									<img src="../images/xwtjzuo1.png" alt="" title=""/>
+									<h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+									<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>刘芳平</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>标签</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo2.png" alt="" title=""/>
+									<h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+									<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>刘芳平</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>标签</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo3.png" alt="" title=""/>
+									<h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+									<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>刘芳平</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>标签</span>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+									<img src="../images/xwtjzuo4.png" alt="" title=""/>
+									<img src="../images/xwtjzuo5.png" alt="" title=""/>
+									<img src="../images/xwtjzuo6.png" alt="" title=""/>
+									<img src="../images/xwtjzuo7.png" alt="" title=""/>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo8.png" alt="" title=""/>
+									<h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+									<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>刘芳平</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>标签</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo9.png" alt="" title=""/>
+									<h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+									<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>刘芳平</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>标签</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo9.png" alt="" title=""/>
+									<h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+									<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>刘芳平</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>标签</span>
+								</li>
+								<li>
+									<h5>杭州区块链企业千万级融资成标配 群雄逐鹿开演</h5>
+									<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>刘芳平</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>标签</span>
+								</li>
+							</ul>
+							<div class="yh-section-hyy-you">
+								<ul>
+									<li>
+										<h5><img src="../images/nrymy24xs.png" /> 24小时热文</h5>
+										<img src="../images/nrymy1.png" alt="" title=""/>
+										<p>
+											仁清科技完成A轮融资,金额1亿人民币,投资方亚商资本....
+										</p>
+										<span>2018-04-16</span>
+									</li>
+									<li>
+										<img src="../images/nrymy2.png" alt="" title=""/>
+										<p>
+											半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+										<span>2018-04-16</span>
+									</li>
+									<li>
+										<img src="../images/nrymy3.png" alt="" title=""/>
+										<p>
+											半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+										<span>2018-04-16</span>
+									</li>
+									<li>
+										<img src="../images/nrymy4.png" alt="" title=""/>
+										<p>
+											半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+										<span>2018-04-16</span>
+									</li>
+									<li>
+										<img src="../images/nrymy5.png" alt="" title=""/>
+										<p>
+											半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+										<span>2018-04-16</span>
+									</li>
+								</ul>
+							</div>
+                            </div>
+                            <div>
+                                <div class="yh-section-hyy-top col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <ul>
+                                        <li>Platform</li>
+                                        <li> 关注</li>
+                                    </ul>
+									<nav class="navbar navbar-light bg-light">
+										<form class="form-inline">
+											<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+											<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+										</form>
+									</nav>
+                                </div>
+                                <ul >
+                                    <li>
+                                        <img src="../images/xwtjzuo1.png" alt="" title=""/>
+                                        <h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+                                        <p>今年 4 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+                                        </p>
+                                        <img src="../images/xwtjzuotx.png" alt="" title=""/>
+                                        <span>刘芳平</span>
+                                        <span>06月05日</span>
+                                        <span>16：09</span>
+                                        <span>标签</span>
+                                    </li>
+                                    <li>
+                                        <img src="../images/xwtjzuo2.png" alt="" title=""/>
+                                        <h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+                                        <p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+                                        </p>
+                                        <img src="../images/xwtjzuotx.png" alt="" title=""/>
+                                        <span>刘芳平</span>
+                                        <span>06月05日</span>
+                                        <span>16：09</span>
+                                        <span>标签</span>
+                                    </li>
+                                    <li>
+                                        <img src="../images/xwtjzuo3.png" alt="" title=""/>
+                                        <h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+                                        <p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+                                        </p>
+                                        <img src="../images/xwtjzuotx.png" alt="" title=""/>
+                                        <span>刘芳平</span>
+                                        <span>06月05日</span>
+                                        <span>16：09</span>
+                                        <span>标签</span>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+                                        <img src="../images/xwtjzuo4.png" alt="" title=""/>
+                                        <img src="../images/xwtjzuo5.png" alt="" title=""/>
+                                        <img src="../images/xwtjzuo6.png" alt="" title=""/>
+                                        <img src="../images/xwtjzuo7.png" alt="" title=""/>
+                                    </li>
+                                    <li>
+                                        <img src="../images/xwtjzuo8.png" alt="" title=""/>
+                                        <h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+                                        <p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+                                        </p>
+                                        <img src="../images/xwtjzuotx.png" alt="" title=""/>
+                                        <span>刘芳平</span>
+                                        <span>06月05日</span>
+                                        <span>16：09</span>
+                                        <span>标签</span>
+                                    </li>
+                                    <li>
+                                        <img src="../images/xwtjzuo9.png" alt="" title=""/>
+                                        <h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+                                        <p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+                                        </p>
+                                        <img src="../images/xwtjzuotx.png" alt="" title=""/>
+                                        <span>刘芳平</span>
+                                        <span>06月05日</span>
+                                        <span>16：09</span>
+                                        <span>标签</span>
+                                    </li>
+                                    <li>
+                                        <img src="../images/xwtjzuo9.png" alt="" title=""/>
+                                        <h5>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h5>
+                                        <p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+                                        </p>
+                                        <img src="../images/xwtjzuotx.png" alt="" title=""/>
+                                        <span>刘芳平</span>
+                                        <span>06月05日</span>
+                                        <span>16：09</span>
+                                        <span>标签</span>
+                                    </li>
+                                    <li>
+                                        <h5>杭州区块链企业千万级融资成标配 群雄逐鹿开演</h5>
+                                        <p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 CryptoNight 的...
+                                        </p>
+                                        <img src="../images/xwtjzuotx.png" alt="" title=""/>
+                                        <span>刘芳平</span>
+                                        <span>06月05日</span>
+                                        <span>16：09</span>
+                                        <span>标签</span>
+                                    </li>
+                                </ul>
+                                <div class="yh-section-hyy-you">
+                                    <ul>
+                                        <li>
+                                            <h5><img src="../images/nrymy24xs.png" /> 24小时热文</h5>
+                                            <img src="../images/nrymy1.png" alt="" title=""/>
+                                            <p>
+                                                仁清科技完成A轮融资,金额1亿人民币,投资方亚商资本....
+                                            </p>
+                                            <span>2018-04-16</span>
+                                        </li>
+                                        <li>
+                                            <img src="../images/nrymy2.png" alt="" title=""/>
+                                            <p>
+                                                半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+                                            <span>2018-04-16</span>
+                                        </li>
+                                        <li>
+                                            <img src="../images/nrymy3.png" alt="" title=""/>
+                                            <p>
+                                                半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+                                            <span>2018-04-16</span>
+                                        </li>
+                                        <li>
+                                            <img src="../images/nrymy4.png" alt="" title=""/>
+                                            <p>
+                                                半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+                                            <span>2018-04-16</span>
+                                        </li>
+                                        <li>
+                                            <img src="../images/nrymy5.png" alt="" title=""/>
+                                            <p>
+                                                半年销售500万支，一年实现盈利，贝医生如何用一把小牙刷实现市场突围？								</p>
+                                            <span>2018-04-16</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+						</div>
+						<!--<div id="load-bottom">-->
+						<!--</div>-->
+					</div>
+				</div>
+			</div>
+
+		</section>
+        <!-- 身体 结束 -->
+        <!-- 开始 脚注  -->
+		<footer>
+			<div id="index-nav"></div>
+			<script >
+                $("#load-bottom").load("load-bottom.html");
+                $("#index-nav").load("../public/nav.html");
+			</script>
+		</footer>
+        <!-- 脚注 结束 -->
+        <!-- 开始引用js -->
+		<!--插入语言包-->
+		<script src="../scripts/jquery_lang/jquery_lang.js"></script>
+		<script src="../lang/default_cn.js"></script>
+		<script src="../scripts/jquery_lang/js.cookie.js"></script>
+		<script src="../scripts/lang.js"></script>
+		<script src="../scripts/jquery_bootstrap/bootstrap.min.js"></script>
+		<script src="../scripts/index1.js"></script>
+		<!--语言包结束-->
+		<script type="text/javascript">
+            window.paceOptions = {
+                document: true,
+                eventLag: true,
+                restartOnPushState: true,
+                restartOnRequestAfter: true,
+                ajax: {
+                    trackMethods: [ 'POST','GET']
+                }
+            };
+		</script>
+    </body>
+</html>

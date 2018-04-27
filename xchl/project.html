@@ -1,0 +1,397 @@
+<!-- 
+    技术支持：深圳市小草互联网科技有限公司，专注前端外包、美工外包。
+    联系电话：13823771028
+    淘宝店：https://shop269081662.taobao.com
+    欢迎联系QQ/微信：364243821；并对我们的产品提出宝贵的意见和建议。
+    为您服务，我们不胜荣幸！
+    1.  根目录文件说明：
+        css | scripts | images | xchl（存放html文件）| 页面（最终存放设计界面图片）；
+    2.  所有icon图标一律引用阿里iconfont的线上图标。
+        ps：客户如需转交iconfont项目所有权，请与项目交付3天内联系我司。
+
+    editer：谢滔
+    edittime：2018年4月8日10:32:04
+    文件修改记录：
+    1. 2018年xx月xx日xx:xx:xx  修复bug，轮播图切换异常
+    2. ****
+ -->
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<!-- 设置文档宽度、是否缩放 -->
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<!-- 优先使用IE最新版本和Chrome -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>项目</title>
+		<!-- 关键字 -->
+		<meta name="keywords" content="">
+		<!-- 描述 -->
+		<meta name="description" content="">
+
+		<!--[if lte IE 8]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+		<!--[if lte IE 7]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+		<!--[if lte IE 6]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+		<!-- 360使用Google Chrome Frame -->
+		<meta name="renderer" content="webkit">
+		<!-- 百度禁止转码 -->
+		<meta http-equiv="Cache-Control" content="no-siteapp">
+		<!-- 定义网页搜索引擎索引方式 -->
+		<meta name="robots" content="index,follow">
+		<!-- ios设备 -->
+		<!-- 添加到主屏后的标题 -->
+		<meta name="apple-mobile-web-app-title" content="标题">
+		<!-- 是否启用WebApp全屏模式 -->
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<!-- 设置状态栏的背景颜色 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!-- Android theme-color用来控制选项卡颜色。 -->
+		<meta name="theme-color" content="#747474">
+		<meta name="mobile-web-app-capable" content="yes">
+		<!-- 关闭chrome浏览器下翻译插件 -->
+		<meta name="google" value="notranslate" />
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+
+		<!-- 开始引用css -->
+		<style>
+			.User-bjxhf{
+				display: none;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/xchl.css">
+		<link rel="stylesheet/less" type="text/less" href="../css/total.less" />
+		<!-- 开始引用js -->
+		<script src="../scripts/less.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../scripts/jquery/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		<!-- 开始 头部 -->
+		<header>
+			<!--导航开始-->
+			<div id="index-header"></div>
+			<script >
+                $("#index-header").load("../public/header.html");
+			</script>
+			<!--导航结束-->
+		</header>
+		<!-- 头部 结束 -->
+		<!-- 开始 身体 -->
+		<section style="margin-top:0;padding:0;0background-color: white">
+			<div class="think-index-section">
+				<div class="Stop-box-bj">
+					<div class="container">
+						<div class="row">
+							<ul class="Stop-box-left col-lg-9 col-md-9 col-sm-12 col-xs-12">
+								<li class="li-2"><img class="img-1" src="../images/stopthefakes.png" alt="" title="" /> <span class="stop-title">StopTheFakes</span><button>+关注</button>
+									<p>Eligma是AI和blockchain基于认知商务</p>
+									<div class="biaoqian">
+
+										<a class="btn1" href="#">标签3</a>
+										<a class="btn1" href="#">标签3</a>
+										<a class="btn1" href="#">标签3</a>
+									</div>
+								</li>
+
+								<li class="content">Streamr（数据）是一个P2P网络的去中心。数据源可以连接到整个网络中的任何节点，然后数据被发布，并且网络立即被发送到订户。通过分片模式实现横向扩展。Eligma，一个认知的商务平台，将现有的电子商务和二手市场连</li>
+								<li class="content">
+									<span>接成一点停止用户。利用人工智能和Eligma blockchains技术12121211</span>
+								</li>
+
+								<li class="link"><span>Follow us:</span>
+									<a class="f f-img2" href="#"><img src="../images/cutimg/commonicon/booticonfront/005.png" /></a>
+									<a class="f bird2" href="#"><img src="../images/cutimg/commonicon/booticonfront/004.png" /></a>
+									<a class="f xiangji2" href="#"><img src="../images/cutimg/commonicon/booticonfront/003.png" /></a>
+									<a class="f g2" href="#"><img src="../images/cutimg/commonicon/booticonfront/002.png" /></a>
+									<a class="f weibo2" href="#"><img src="../images/cutimg/commonicon/booticonfront/001.png" /></a>
+								</li>
+
+							</ul>
+							<li class="four-img col-md-3 col-lg-3 col-sm-3 col-xs-12"><img src="../images/cutimg/projectnornal/4.8.png" alt="" title="" /></li>
+						</div>
+					</div>
+				</div>
+				<div class="bjs">
+
+					<div class="container">
+						<div class="row">
+							<div class="content-left col-lg-8 col-md-8 col-sm-12 col-xs-12">
+								<ul id="nav-ul">
+									<li class="active">News</li>
+									<li>Team</li>
+									<li>Info</li>
+								</ul>
+								<ul class="total-box">
+									<li class="kind" style="display:block;">
+										<ul class="ul1">
+											<li>
+												<img class="picture1" src="../images/news/u273.png" alt="" title="" />
+												<h3>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h3>
+												<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 算法的加密货币，门罗币随即发出反制声明，将改变核心算法以对抗 ASIC 算力的入侵。
+												</p>
+												<img class="portrait" src="../images/cutimg/personalpag/littlepeople.png" alt="" title="" />
+												<span class="name">刘芳平</span><span class="time">06月05日  16：09</span><button>标签</button>
+											</li>
+
+											<li>
+												<img class="picture1" src="../images/news/u291.png" alt="" title="" />
+												<h3>【深度】Skycoin商业白皮书发布！带你解读完整生态</h3>
+												<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 算法的加密货币，门罗币随即发出反制声明，将改变核心算法以对抗 ASIC 算力的入侵。
+												</p>
+												<img class="portrait" src="../images/cutimg/personalpag/littlepeople.png" alt="" title="" />
+												<span class="name">刘芳平</span><span class="time">06月05日  16：09</span><button>标签</button>
+											</li>
+
+											<li>
+												<img class="picture1" src="../images/news/u273.png" alt="" title="" />
+												<h3>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h3>
+												<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 算法的加密货币，门罗币随即发出反制声明，将改变核心算法以对抗 ASIC 算力的入侵。
+												</p>
+												<img class="portrait" src="../images/cutimg/personalpag/littlepeople.png" alt="" title="" />
+												<span class="name">刘芳平</span><span class="time">06月05日  16：09</span><button>标签</button>
+											</li>
+
+											<li>
+												<img class="picture1" src="../images/news/u291.png" alt="" title="" />
+												<h3>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h3>
+												<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 算法的加密货币，门罗币随即发出反制声明，将改变核心算法以对抗 ASIC 算力的入侵。
+												</p>
+												<img class="portrait" src="../images/cutimg/personalpag/littlepeople.png" alt="" title="" />
+												<span class="name">刘芳平</span><span class="time">06月05日  16：09</span><button>标签</button>
+											</li>
+											<li>
+												<img class="picture1" src="../images/news/u273.png" alt="" title="" />
+												<h3>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h3>
+												<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 算法的加密货币，门罗币随即发出反制声明，将改变核心算法以对抗 ASIC 算力的入侵。
+												</p>
+												<img class="portrait" src="../images/cutimg/personalpag/littlepeople.png" alt="" title="" />
+												<span class="name">刘芳平</span><span class="time">06月05日  16：09</span><button>标签</button>
+											</li>
+
+											<li>
+												<img class="picture1" src="../images/news/u273.png" alt="" title="" />
+												<h3>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h3>
+												<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 算法的加密货币，门罗币随即发出反制声明，将改变核心算法以对抗 ASIC 算力的入侵。
+												</p>
+												<img class="portrait" src="../images/cutimg/personalpag/littlepeople.png" alt="" title="" />
+												<span class="name">刘芳平</span><span class="time">06月05日  16：09</span><button>标签</button>
+											</li>
+
+											<li>
+												<img class="picture1" src="../images/news/u291.png" alt="" title="" />
+												<h3>【深度】当区块链不再需要矿机挖矿，比特大陆会沉底吗？</h3>
+												<p>今年 3 月底，比特大陆推出了一款基于 ASIC 的蚂蚁矿机 X3，主要是针对门罗币（XMR）以及依赖 算法的加密货币，门罗币随即发出反制声明，将改变核心算法以对抗 ASIC 算力的入侵。
+												</p>
+												<img class="portrait" src="../images/cutimg/personalpag/littlepeople.png" alt="" title="" />
+												<span class="name">刘芳平</span><span class="time">06月05日  16：09</span><button>标签</button>
+											</li>
+											<p class="xiala"><img src="../images/cutimg/personalpag/loadlittle.png"/ alt="" title="">下拉加载更多</p>
+										</ul>
+									</li>
+									<li class="kind kind2">
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+
+										<ul class="ul2">
+											<li><img src="../images/cutimg/projecteam/1.png" /></li>
+											<li><strong>Dejan Roljic</strong></li>
+											<li><span>创始人兼首席执行官</span></li>
+											<li><img class="in-img" src="../images/cutimg/projecteam/2.png" /></li>
+
+										</ul>
+									</li>
+									<li class="kind" style="width: 100%;">
+										<ul class="ul3">
+											<li>
+												<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 lnfo-left">
+													<img class="forty-eight" src="../images/cutimg/projectnornal/4.8.png" alt="" title="" />
+													<p>93位专家评级</p>
+													<ul>
+														<li><span>5.0</span><p>ico配置文</p></li>
+														<li><span>4.8</span><p>团队</p></li>	
+													</ul>
+													<ul>
+														<li><span>4.8</span><p>预期</p></li>
+														<li><span>4.8</span><p>产品</p></li>	
+													</ul>
+												</div>
+												
+												<ul class="col-lg-8 col-md-8 col-sm-8 col-xs-12 lnfo-right">
+													<li class="lr-li1"><span class="category">起止时间</span><span class="value time">2018-04-16 -2018-04-30</span></li>
+													<li><span class="category">代币</span><span class="value">TGAME</span></li>
+													<li><span class="category">价格</span><span class="value">1 ETH = 9,250</span></li>
+													<li><span class="category">赏金</span><span class="value">可得到</span></li>
+													<li><span class="category">平台</span><span class="value">Ethereum</span></li>
+													<li><span class="category">验收</span><span class="value">ETH, BTC, LTC</span></li>
+													<li><span class="category">最小投资</span><span class="value">0.1 ETH</span></li>
+													<li><span class="category">硬帽</span><span class="value">10,300 ETH</span></li>
+													<li><span class="category">国家</span><span class="value">哥斯达黎加</span></li>
+													<li><span class="category">Whitelist/KYC</span><span class="value">Whitelist</span></li>
+													<li><span class="category">限制区域</span><span class="value">美国</span></li>
+													
+													
+												</ul>
+												
+												
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div class="content-right col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								<ul>
+									<li><img src="../images/cutimg/projectnornal/5a409d3100019c4406000338-240-135.png" /></li>
+									<li class="cr-li2">Intercontinental <img src="../images/cutimg/projectnornal/2.png" alt="" title="" /></li>
+									<li><span>等级4</span><span>|</span><span>电报：1800</span><span>|</span><span>邀请：35</span></li>
+									<li class="cr-li4">Eligma，一个认知的商务平台，将连接现有的电子商务和山高，Eligma，</li>
+								</ul>
+								<ul>
+									<li><img src="../images/cutimg/projectnornal/5a409d3100019c4406000338-240-135.png" /></li>
+									<li class="cr-li2">Intercontinental <img src="../images/cutimg/projectnornal/2.png" alt="" title="" /></li>
+									<li><span>等级4</span><span>|</span><span>电报：1800</span><span>|</span><span>邀请：35</span></li>
+									<li class="cr-li4">Eligma，一个认知的商务平台，将连接现有的电子商务和山高，Eligma，</li>
+								</ul>
+								<ul>
+									<li><img src="../images/cutimg/projectnornal/5a409d3100019c4406000338-240-135.png" /></li>
+									<li class="cr-li2">Intercontinental <img src="../images/cutimg/projectnornal/2.png" alt="" title="" /></li>
+									<li><span>等级4</span><span>|</span><span>电报：1800</span><span>|</span><span>邀请：35</span></li>
+									<li class="cr-li4">Eligma，一个认知的商务平台，将连接现有的电子商务和山高，Eligma，</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 身体 结束 -->
+		<!-- 开始 脚注  -->
+		<footer>
+			<div id="index-nav"></div>
+			<script >
+                $("#index-nav").load("../public/nav.html");
+			</script>
+		</footer>
+		<!-- 脚注 结束 -->
+		<!-- 开始引用js -->
+		<!--插入语言包-->
+		<script src="../scripts/jquery_lang/jquery_lang.js"></script>
+		<script src="../lang/default_cn.js"></script>
+		<script src="../scripts/jquery_lang/js.cookie.js"></script>
+		<script src="../scripts/lang.js"></script>
+		<script src="../scripts/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../scripts/index.js"></script>
+		<!--语言包结束-->
+		<script type="text/javascript">
+			window.paceOptions = {
+				document: true,
+				eventLag: true,
+				restartOnPushState: true,
+				restartOnRequestAfter: true,
+				ajax: {
+					trackMethods: ['POST', 'GET']
+				}
+			};
+		</script>
+	</body>
+
+</html>
