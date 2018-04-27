@@ -1,0 +1,209 @@
+/*========================默认样式=========================*/
+/*========================default css======================*/
+@charset "UTF-8";
+html,body,div,section,article,aside,nav,footer,p,dl,dt,dd,ul,li,ol,span,em,a,del,h1,h2,h3,h4,h5,h6,iframe,object,form, label, legend,caption, tbody, tfoot, thead, tr, th, td,menu,audio,video{padding:0;margin:0;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+ul,ol,li{list-style: none;}
+html{font-family:Arial,'PingFang SC','Microsoft YaHei',Verdana,san-serif;font-size:12px;color:#333;background: #f0f0f0;width:100%;}
+img{border:none;vertical-align:middle;}
+em,i{font-style: normal;}
+input,button,select,option,textarea{cursor:pointer;outline:none;font-family:Arial,'PingFang SC','Microsoft YaHei',Verdana,san-serif;}
+.clearfix:after{clear:both;height:0;content:'';display: block;overflow: hidden;}
+.clearfix{zoom:1;}
+a {text-decoration:none;background-color: transparent;color: inherit;}
+a:active,a:hover {outline: 0;}
+
+/*========================登入页面=========================*/
+/*========================登录sunlogin.html=========================*/
+body{
+  height: 1300px;
+  width: 1920px;
+  background: url("../images/login_bg.png") no-repeat center / cover;
+}
+.login_logo{
+  padding-top: 47px;
+  padding-left: 135px;
+  height: 369px;
+  width: auto;
+  font-size: 50px;
+  color: #ffb300;
+}
+.login_logo a:hover, a:active{
+    text-decoration: none;
+    color: #ffb300;
+  }
+.change_bar{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -200px;
+  height: 564px;
+  width: 400px;
+  border-radius: 2px;
+  background: #fff;
+}
+  .change_btn_bar{
+    position: relative;
+    width: 164px;
+    height: 138px;
+    margin-left: 118px;
+    color: #ffb300;
+  }
+  .login_btn, .register_btn{
+    display: inline-block;
+    position: absolute;
+    top: 59px;
+    height: 40px;
+    line-height: 40px;
+    width: 65px;
+    font-size: 22px;
+    text-align: center;
+  }
+  .login_btn{
+    left: 0;
+    border-bottom: 2px solid #ffb300;
+    color: #ffb300;
+  }
+    .login_btn a:hover, a:active{
+    text-decoration: none;
+    color: #ffb300;
+    }
+.change_btn_bar strong{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #777;
+  font-size: 20px;
+}
+  .register_btn{
+    right: 0;
+    color: #777;
+  }
+    .register_btn a:hover, a:active{
+      text-decoration: none;
+      color: #777;
+    }
+.input_bar{
+  margin: 0 auto 23px;
+  width: 306px;
+  height: 152px;
+  background: #f8f8f8;
+}
+  .input_phone, .input_password, .input_verify{
+    height: 48px;
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+    color: #777;
+  }
+  .input_verify{
+    position: relative;
+  }
+  .input_phone span, .input_password span, .input_verify span{
+    display: inline-block;
+    width: 45px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+  }
+  .phone, .password, .verify{
+    border: none;
+    line-height: 46px;
+    font-size: 18px;
+    background: #f8f8f8;
+  }
+  .verify{
+    width: 166px;
+    margin-left: 10px;
+    cursor: default;
+  }
+.input_verify .btn_verify{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 126px;
+    height: 49px;
+    font-size: 18px;
+    color: #fff;
+    background: #cfcfcf;
+    cursor: pointer;
+  }
+.check_bar{
+  position: relative;
+  margin: 0 auto;
+  width: 306px;
+  height: 65px;
+  font-size: 16px;
+  color: #777;
+}
+.check_bar label{
+  vertical-align: top;
+  line-height: 24px;
+}
+.check_me{
+  vertical-align: top;
+  width: 18px;
+  height: 18px;
+}
+.issue{
+  position: absolute;
+  right: 0;
+  vertical-align: top;
+  line-height: 24px;
+}
+.btn_login{
+  margin: 0 auto;
+  width: 306px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 45px;
+  background: #2c3e50;
+  color: #fff;
+  cursor: default;
+}
+.other{
+  position: relative;
+  margin: 0 auto;
+  width: 306px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+.hr_left{
+  position: absolute;
+  top: 35px;
+  left: 15px;
+}
+.hr_right{
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+.other_login{
+  width: 188px;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+}
+.other_login .img{
+  flex: 1;
+  height: 70px;
+  text-align:center;
+}
+
+@media only screen and (max-width: 480px){
+  body{
+    height: 800px;
+    .login_logo{
+      padding-left: 100px;
+    }
+    .category-box{
+      margin-top: 50px;
+    }
+  }
+}

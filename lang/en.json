@@ -1,0 +1,19 @@
+{
+    "token": {
+        "aready_clear" : "All number is clear",
+        "clear_all_queue_number" : "Clear all number in queue",
+        "restaurant_name" : "Restaurant",
+        "lang" : "heheheh",
+        "restaurant_id" : "ID",
+        "queueing" : "Queueing",
+        "all_queuing_revocation" : "All queuing revocation",
+        "search_queues" : "Search queues",
+        "queuing_statistics" : "Queuing statistics",
+        "popup_all_queuing_revocation" : "Are you sure you want to revoke all of it？"
+    },
+    "regex": [
+        ["Budget", "234324"],
+        ["^Something at start of text", ""],
+        ["This will be case insensitive", "i", ""]
+    ]
+}
