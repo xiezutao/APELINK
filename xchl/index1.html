@@ -1,0 +1,337 @@
+<!-- 
+    技术支持：深圳市小草互联网科技有限公司，专注前端外包、美工外包。
+    联系电话：13823771028
+    淘宝店：https://shop269081662.taobao.com
+    欢迎联系QQ/微信：364243821；并对我们的产品提出宝贵的意见和建议。
+    为您服务，我们不胜荣幸！
+    1.  根目录文件说明：
+        css | scripts | images | xchl（存放html文件）| 页面（最终存放设计界面图片）；
+    2.  所有icon图标一律引用阿里iconfont的线上图标。
+        ps：客户如需转交iconfont项目所有权，请与项目交付3天内联系我司。
+
+    editer：谢滔
+    edittime：2018年4月8日10:32:04
+    文件修改记录：
+    1. 2018年xx月xx日xx:xx:xx  修复bug，轮播图切换异常
+    2. ****
+ -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- 设置文档宽度、是否缩放 -->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <!-- 优先使用IE最新版本和Chrome -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>ICO列表新闻推荐页-首页</title>
+        <!-- 关键字 -->
+        <meta name="keywords" content="">
+        <!-- 描述 -->
+        <meta name="description" content="">
+
+        <!--[if lte IE 8]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+        <!--[if lte IE 7]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+        <!--[if lte IE 6]>
+        <p style="background:#000;text-align: center;color:#fff;font-size: 16px; line-height: 25px;">你的浏览器太老了，请到<a href="http://browsehappy.com" style="color:#ddd">这里</a>更新，以获取最佳的体验</p>
+        <![endif]-->
+        <!-- 360使用Google Chrome Frame -->
+		<meta name="renderer" content="webkit">
+		<!-- 百度禁止转码 -->
+		<meta http-equiv="Cache-Control" content="no-siteapp">
+		<!-- 定义网页搜索引擎索引方式 -->
+		<meta name="robots" content="index,follow">
+		<!-- ios设备 -->
+		<!-- 添加到主屏后的标题 -->
+		<meta name="apple-mobile-web-app-title" content="标题">
+		<!-- 是否启用WebApp全屏模式 -->
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<!-- 设置状态栏的背景颜色 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!-- Android theme-color用来控制选项卡颜色。 -->
+		<meta name="theme-color" content="#747474">
+		<meta name="mobile-web-app-capable" content="yes">
+		<!-- 关闭chrome浏览器下翻译插件 -->
+		<meta name="google" value="notranslate" />
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+
+		<!-- 开始引用css -->
+		<link rel="stylesheet" type="text/css" href="">
+		<link rel="stylesheet" type="text/css" href="../styles/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet/less" type="text/css" href="../styles/xchl.less">
+		<!-- 开始引用js -->
+		<script src="../scripts/less.min.js"></script>
+		<script src="../scripts/jquery/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <!-- 开始 头部 -->
+        <header>
+			<!--导航开始-->
+			<div id="index-header"></div>
+			<script >
+                $("#index-header").load("../public/header.html");
+			</script>
+			<!--导航结束-->
+        </header>
+        <!-- 头部 结束 -->
+        <!-- 开始 身体 -->
+        <section>
+			<div class="container">
+				<div class="row">
+					<div class="yh-section-xwtj-top col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+						<ul>
+							<li>最新动态</li>
+							<li>火币HT完成一季度回购 锁仓但不销毁</li>
+							<li>加密货币交易所进入洗牌期</li>
+							<li>
+								<nav class="navbar navbar-light bg-light">
+								<form class="form-inline">
+									<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+								</form>
+								</nav>
+							</li>
+						</ul>
+					</div>
+					<div class="yh-section-xwtj-zuo col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
+						<div class="yh-section-xwtj-zuo1">
+							<ul>
+								<li class="tb-active"><a href="index.html">推荐</a></li>
+								<li><a href="icolist.html">关注</a></li>
+								<li><a href="index1.html">平台</a></li>
+								<li><a href="index2.html">加密货币</a></li>
+								<li><a href="index3.html">商业服务</a></li>
+								<li><a href="index4.html">投资</a></li>
+								<li><a href="index5.html">软件</a></li>
+								<li>智能合约</li>
+								<li>网络</li>
+								<li>娱乐</li>
+								<li>银行</li>
+								<li>基础设施</li>
+								<li>通讯</li>
+								<li>大数据</li>
+								<li>人工智能</li>
+								<li>媒体</li>
+								<li>零售</li>
+								<li>健康</li>
+								<li>房地产</li>
+								<li>教育</li>
+								<li>博彩</li>
+								<li>旅游</li>
+								<li>体育</li>
+								<li>能源</li>
+								<li>制造业</li>
+								<li>虚拟现实</li>
+								<li>慈善</li>
+								<li>电力</li>
+								<li>法律</li>
+								<li>艺术</li>
+								<li>其他</li>
+							</ul>
+						</div>
+						<div class="yh-section-xwtj-zuo2">
+							<ul>
+								<li>
+									<img src="../images/xwtjzuo1.png" alt="" title=""/>
+									<h5><a href="icodetail.html">代表被爆虚假身份，ZPER仍按计划ICO</a></h5>
+									<p>Midrate的代表Lee Sueng-heang因虚假学历，经历自行辞退，但是仍然进行虚拟货币ZPER的ICO。ZPER认为虚假身份...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>快讯君</span>
+									<span>04月27日</span>
+									<span>21:27</span>
+									<span>ZPER</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo2.png" alt="" title=""/>
+									<h5>助力云计算：前Blockstream开发者推进分布式应用开发</h5>
+									<p>重塑互联网？这不是电视里的笑话，这是区块链开发者们的目标，对Ben Gorlick和Johnny Dilley来说也不例外。而...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>区块网</span>
+									<span>04月27日</span>
+									<span>19：09</span>
+									<span>Crowd Machine</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo3.png" alt="" title=""/>
+									<h5>区块链商业平台使用人工智能简化网上购物</h5>
+									<p>一个基于区块链的商业平台开展了一项计划，可以简化网上购物流程，同时也能提供有意义的回报奖励，帮助消费者...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>36氪</span>
+									<span>04月26日</span>
+									<span>3：27</span>
+									<span>Connor Blenkinsop</span>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<h5>话题:可以抵押BTC、ETH获得贷款的加密平台MoneyToken网易星球、TFBOYS粉丝团都搞区块链？</h5>
+									<img src="../images/xwtjzuo4.png" alt="" title=""/>
+									<img src="../images/xwtjzuo5.png" alt="" title=""/>
+									<img src="../images/xwtjzuo6.png" alt="" title=""/>
+									<img class="yh-xwtj-zuo2-img" src="../images/xwtjzuo7.png" alt="" title=""/>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo8.png" alt="" title=""/>
+									<h5>话题:可以抵押BTC、ETH获得贷款的加密平台MoneyToken网易星球、TFBOYS粉丝团都搞区块链？</h5>
+									<p>网易发布基于区块链的生态价值共享平台“星球”，目前尚处于内测中，据了解，星球基地通过区块链加密存储...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>同花顺</span>
+									<span>06月25日</span>
+									<span>16：09</span>
+									<span>MoneyToken</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo9.png" alt="" title=""/>
+									<h5>区块链与无人机结合的实际案例</h5>
+									<p>区块链技术发展至今，在底层技术不断取得突破的现在，也在寻找更多可以落地的应用场景。当下最为瞩目的就是...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>电子发烧友</span>
+									<span>06月25日</span>
+									<span>10：09</span>
+									<span>鼎酷IOT部落</span>
+								</li>
+								<li>
+									<img src="../images/xwtjzuo9.png" alt="" title=""/>
+									<h5>SKYF推区块链无人物流平台 货运无人机前年完成首飞</h5>
+									<p>3月1日，SKYFchain启动了ICO预售。它是首个基于智能合约区块链技术、用于无人货运物流的B2R(企业对机器人，注意...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>电子发烧友</span>
+									<span>06月05日</span>
+									<span>16：09</span>
+									<span>杨薇 </span>
+								</li>
+								<li>
+									<h5>代表被爆虚假身份，ZPER扔按计划ICO</h5>
+									<p>midrate的代表Lee Sueng-heang因虚假学历，经历自行辞退，但是仍然进行虚拟货币APER的ICO。ZPER认为虚假身份的代...
+									</p>
+									<img src="../images/xwtjzuotx.png" alt="" title=""/>
+									<span>金色财经</span>
+									<span>06月05日</span>
+									<span>09：19</span>
+									<span>小草</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="load-bottom">
+						<div class="lists"></div>
+					</div>
+					<div class="yh-section-xwtj-you col-xl-4 col-lg-4 col-md-4 col-sm-4">
+						<ul>
+							<li>
+								<img src="../images/xwtjyoukx.png" alt="" title=""/>
+								<h5>快讯</h5>
+								<span>更多></span>
+							</li>
+							<li>
+								<span>4分钟前</span>
+								<h6>比原链即将迎来主网上线</h6>
+								<p>
+									【比原链即将迎来主网上线】比原链官网公众号发文《比原链|共建生态，拥抱未来》，文中指出，继比原链Tensority算法细节发布之后，比原链即将迎来主网上线人工智能和区块链结合的时代也将开启。
+								</p>
+							</li>
+							<li>
+								<span>6分钟前</span>
+								<h6>比原链即将迎来主网上线</h6>
+								<p>
+									【比原链即将迎来主网上线】比原链官网公众号发文《比原链|共建生态，拥抱未来》，文中指出，继比原链Tensority算法细节发布之后，比原链即将迎来主网上线人工智能和区块链结合的时代也将开启。
+								</p>
+							</li>
+							<li>
+								<span>6分钟前</span>
+								<h6>比原链即将迎来主网上线</h6>
+								<p>
+									【比原链即将迎来主网上线】比原链官网公众号发文《比原链|共建生态，拥抱未来》，文中指出，继比原链Tensority算法细节发布之后，比原链即将迎来主网上线人工智能和区块链结合的时代也将开启。
+								</p>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<img src="../images/xwtjyougjss.png" alt="" title=""/>
+								<h5>国家时事</h5>
+								<span>更多></span>
+							</li>
+							<li>
+								错在力挺薛之谦？金立60亿营销费打水漂究竟为何？
+							</li>
+							<li>
+								<span>区块链降温是一件好的事情，区块链企业低调、务实一些好，可以更踏实的去把项目去做好。</span>
+								<img src="../images/xwtjyou1.png" alt="" title=""/>
+							</li>
+							<li>
+								工信部信软司助力区块链产业 可信区块链联盟成立
+							</li>
+							<li>
+								<span>	银行助力雄安新区：投放最先进技术 种树也用区块链。
+								</span>
+								<img src="../images/xwtjyou2.png" alt="" title=""/>
+							</li>
+							<li>
+								工信部信软司助力区块链产业
+							</li>
+							<li>
+								工信部信软司助力区块链产业 可信区块链联盟成立
+							</li>
+							<li>
+								<span>银行助力雄安新区：投放最先进技术 种树也用区块链。</span>
+								<img class="dbimg" src="../images/xwtjyou3.png" alt="" title=""/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</section>
+        <!-- 身体 结束 -->
+        <!-- 开始 脚注  -->
+		<footer>
+			<div id="index-nav"></div>
+			<script >
+                $("#index-nav").load("../public/nav.html");
+			</script>
+		</footer>
+        <!-- 脚注 结束 -->
+        <!-- 开始引用js -->
+		<!--插入语言包-->
+		<script src="../scripts/jquery_lang/jquery_lang.js"></script>
+		<script src="../lang/default_cn.js"></script>
+		<script src="../scripts/jquery_lang/js.cookie.js"></script>
+		<script src="../scripts/lang.js"></script>
+		<script src="../scripts/jquery_bootstrap/bootstrap.min.js"></script>
+		<!--<script src="../scripts/index.js"></script>-->
+		<!--语言包结束-->
+		<script type="text/javascript">
+            window.paceOptions = {
+                document: true,
+                eventLag: true,
+                restartOnPushState: true,
+                restartOnRequestAfter: true,
+                ajax: {
+                    trackMethods: [ 'POST','GET']
+                }
+            };
+		</script>
+    </body>
+</html>
