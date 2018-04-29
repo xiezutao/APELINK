@@ -19,16 +19,16 @@
           <file leaf-file-name="project.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/xchl/project.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="12">
-                  <caret line="130" column="159" lean-forward="true" selection-start-line="130" selection-start-column="159" selection-end-line="130" selection-end-column="159" />
+                <state relative-caret-position="705">
+                  <caret line="228" column="82" lean-forward="true" selection-start-line="228" selection-start-column="82" selection-end-line="228" selection-end-column="82" />
                   <folding>
                     <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1524971312372" expanded="false" signature="926:1007" ph="..." />
-                    <marker date="1524971312372" expanded="false" signature="1060:1070" ph="..." />
-                    <marker date="1524971312372" expanded="false" signature="1154:1235" ph="..." />
-                    <marker date="1524971312372" expanded="false" signature="1288:1298" ph="..." />
-                    <marker date="1524971312372" expanded="false" signature="1382:1463" ph="..." />
-                    <marker date="1524971312372" expanded="false" signature="1516:1526" ph="..." />
+                    <marker date="1524972487800" expanded="false" signature="926:1007" ph="..." />
+                    <marker date="1524972487800" expanded="false" signature="1060:1070" ph="..." />
+                    <marker date="1524972487800" expanded="false" signature="1154:1235" ph="..." />
+                    <marker date="1524972487800" expanded="false" signature="1288:1298" ph="..." />
+                    <marker date="1524972487800" expanded="false" signature="1382:1463" ph="..." />
+                    <marker date="1524972487800" expanded="false" signature="1516:1526" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -41,8 +41,18 @@
           <file leaf-file-name="total.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dist/css/total.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="249">
+                  <caret line="392" column="42" lean-forward="true" selection-start-line="392" selection-start-column="42" selection-end-line="392" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="xchl.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dist/styles/xchl.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="627">
+                  <caret line="255" column="31" lean-forward="true" selection-start-line="255" selection-start-column="31" selection-end-line="255" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -61,8 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>作</find>
-      <find>section</find>
       <find>yh-section-hyy-you</find>
       <find>container</find>
       <find>.yh-section-xwtj-zuo2</find>
@@ -91,6 +99,8 @@
       <find>ul:nth-child(2)</find>
       <find>f-img</find>
       <find>personal-name</find>
+      <find>content-left</find>
+      <find>ul2</find>
     </findStrings>
     <replaceStrings>
       <replace>hyy</replace>
@@ -127,7 +137,9 @@
         <option value="$PROJECT_DIR$/public/nav.html" />
         <option value="$PROJECT_DIR$/styles/xchl.less" />
         <option value="$PROJECT_DIR$/css/sunlogin.less" />
+        <option value="$PROJECT_DIR$/dist/styles/xchl.less" />
         <option value="$PROJECT_DIR$/xchl/project.html" />
+        <option value="$PROJECT_DIR$/dist/css/total.less" />
       </list>
     </option>
   </component>
@@ -238,12 +250,12 @@
       <workItem from="1524706882344" duration="38040000" />
       <workItem from="1524781431860" duration="6970000" />
       <workItem from="1524792697314" duration="10087000" />
-      <workItem from="1524971220195" duration="93000" />
+      <workItem from="1524971220195" duration="2273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59022000" />
+    <option name="totallyTimeSpent" value="61202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -253,6 +265,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30965006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -264,7 +277,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30965006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -279,13 +291,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xchl/修改密码sunforget.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="95" column="34" lean-forward="false" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xchl/注册sunregister.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1463">
@@ -414,6 +419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -535,27 +541,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/total.less">
+    <entry file="file://$PROJECT_DIR$/dist/styles/xchl.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="627">
+          <caret line="255" column="31" lean-forward="true" selection-start-line="255" selection-start-column="31" selection-end-line="255" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xchl/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="130" column="159" lean-forward="true" selection-start-line="130" selection-start-column="159" selection-end-line="130" selection-end-column="159" />
+        <state relative-caret-position="705">
+          <caret line="228" column="82" lean-forward="true" selection-start-line="228" selection-start-column="82" selection-end-line="228" selection-end-column="82" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1524971312372" expanded="false" signature="926:1007" ph="..." />
-            <marker date="1524971312372" expanded="false" signature="1060:1070" ph="..." />
-            <marker date="1524971312372" expanded="false" signature="1154:1235" ph="..." />
-            <marker date="1524971312372" expanded="false" signature="1288:1298" ph="..." />
-            <marker date="1524971312372" expanded="false" signature="1382:1463" ph="..." />
-            <marker date="1524971312372" expanded="false" signature="1516:1526" ph="..." />
+            <marker date="1524972487800" expanded="false" signature="926:1007" ph="..." />
+            <marker date="1524972487800" expanded="false" signature="1060:1070" ph="..." />
+            <marker date="1524972487800" expanded="false" signature="1154:1235" ph="..." />
+            <marker date="1524972487800" expanded="false" signature="1288:1298" ph="..." />
+            <marker date="1524972487800" expanded="false" signature="1382:1463" ph="..." />
+            <marker date="1524972487800" expanded="false" signature="1516:1526" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/total.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="392" column="42" lean-forward="true" selection-start-line="392" selection-start-column="42" selection-end-line="392" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
